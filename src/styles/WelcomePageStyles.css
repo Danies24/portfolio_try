@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Chonburi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+.mainContainer{
+    display: flex;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    flex:1;
+}
+.leftDiv,.rightDiv{
+    flex:0.5;
+}
+.leftDiv{
+    background-color: #FF0000;
+}
+.rightDiv{
+    background-color: #00FFFF;
+}
+.danies{
+    font-family: 'Chonburi', cursive;
+    position: absolute;
+    color: white;
+    font-size: 3rem;
+    top: 40%;
+    right: 50%;
+}
+.mohamed{
+    font-family: 'Rubik Dirt', cursive;
+    color: red;
+    font-size: 3rem;
+    position: absolute;
+    top: 40%;
+    align-self: flex-start;
+}
+.exp,.ore{
+    position: absolute;
+    bottom: 1%;
+    font-size: 0.8rem;
+}
+.ore{
+    align-self: flex-start;
+    font-family: 'Rubik Dirt', cursive;
+    color: red;
+}
+.exp{
+    font-family: 'Chonburi', cursive;
+    right: 50%;
+    color: white;
+}

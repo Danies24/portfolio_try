@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.homePageContainer{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 25px;
+    display: flex;
+    flex:1;
+    /* background-color: azure; */
+}
+.contentDiv{
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    background-color: blue;
+    width: 90%;
+    text-align: justify;
+}
+.rightImageDiv{
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imageDIv{
+    background-color: #fff;
+    width: 50%;
+    height: 50%;
+    border-radius: 100%;
+}
+.myImage{
+    width: 100%;
+    height: 100%;
+}
